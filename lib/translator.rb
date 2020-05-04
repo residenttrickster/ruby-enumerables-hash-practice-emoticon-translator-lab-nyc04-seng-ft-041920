@@ -37,7 +37,7 @@ def get_english_meaning(path, emoticon)
   emoticon_hash.each do |meaning, value|
   if emoticon == emoticon_hash[meaning][:japanese]
     return meaning
-  else 
+  else
     puts "Sorry, that emoticon was not found"
    end
  end
